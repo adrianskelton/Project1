@@ -22,3 +22,9 @@ body {
     border: solid red 4px;
     margin: 10px;
 }
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
