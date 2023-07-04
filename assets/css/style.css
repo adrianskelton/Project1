@@ -10,9 +10,9 @@ body {
 
 .heroimage {
     background: url(/assets/images/hero.png) no-repeat center;
-    background-size: cover;
+    background-size: 80%;
     padding-top: 20px;
-    width: auto;
+    padding-left: 20%;
     height: 600px;
 }
 
