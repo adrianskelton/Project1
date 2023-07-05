@@ -12,26 +12,26 @@ body {
     background: url(/assets/images/hero.png) no-repeat center;
     background-size: 80%;
     padding-top: 10px;
-    padding-left: 10%;
+    height: 600px;
+}
+
+.heroimagecontact {
+    background: url(/assets/images/heroimage2.png) no-repeat center;
+    background-size: 80%;
+    padding-top: 10px;
     height: 600px;
 }
 
 .box {
-    height: 400px;
+    height: 400p x;
     width: auto;
     border: solid red 4px;
-    padding-left: 200px;
     margin: 10px;
-}
-
-.full {
-    display: flex;
-    width: max-content;
-
+    overflow: none;
 }
 
 .social {
-    display: flex;
-    align-items: center;
-    flex-shrink: 4;
+    width: 100px;
+    height: auto;
+    padding: 20px;
 }
