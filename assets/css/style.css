@@ -25,7 +25,6 @@ body {
 .box {
     height: 400p x;
     width: auto;
-    border: solid red 4px;
     margin: 10px;
     overflow: none;
 }
