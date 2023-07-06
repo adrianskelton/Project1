@@ -35,3 +35,9 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+
+/*makes youtube video responsive*/
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
