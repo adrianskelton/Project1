@@ -30,6 +30,11 @@ body {
     overflow: none;
 }
 
+.padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .social {
     display: flex;
     flex-direction: row;
