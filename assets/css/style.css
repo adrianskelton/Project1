@@ -39,10 +39,12 @@ body {
 /*for accomodation images*/
 
 .accom {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 300px;
+    display: inline-block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    margin-bottom: 35px;
 }
 
 .padding {
