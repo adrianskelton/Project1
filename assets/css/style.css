@@ -47,6 +47,10 @@ body {
     width: 100%;
 }
 
+.googlemap {
+    width: 100%;
+}
+
 /*form styling*/
 
 input[type=text],
