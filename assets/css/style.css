@@ -22,11 +22,27 @@ body {
     height: 600px;
 }
 
+.heroaccom {
+    background: url(/assets/images/accomodation.png) no-repeat center;
+    background-size: 80%;
+    padding-top: 10px;
+    height: 600px;
+}
+
 .box {
     height: 400p x;
     width: auto;
     margin: 10px;
     overflow: none;
+}
+
+/*for accomodation images*/
+
+.accom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
 }
 
 .padding {
