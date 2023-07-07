@@ -9,21 +9,21 @@ body {
 /*hero image landing page*/
 
 .heroimage {
-    background: url(assets/images/hero.png) no-repeat center;
+    background: url(../images/hero.png) no-repeat center;
     background-size: 80%;
     padding-top: 10px;
     height: 600px;
 }
 
 .heroimagecontact {
-    background: url(assets/images/heroimage2.png) no-repeat center;
+    background: url(../images/heroimage2.png) no-repeat center;
     background-size: 80%;
     padding-top: 10px;
     height: 600px;
 }
 
 .heroaccom {
-    background: url(assets/images/accomodation.png) no-repeat center;
+    background: url(../images/accomodation.png) no-repeat center;
     background-size: 80%;
     padding-top: 10px;
     height: 600px;
