@@ -33,7 +33,7 @@ body {
     float: left;
     height: 200px;
     width: 200px;
-    border-radius: 999999;
+    border-radius: 50%;
 }
 
 .box {
