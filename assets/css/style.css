@@ -30,6 +30,8 @@ body {
 }
 
 .headshot {
+    padding-top: 10px;
+    padding-right: 10px;
     float: left;
     height: 200px;
     width: 200px;
@@ -61,6 +63,7 @@ body {
 }
 
 .social {
+    height: 110px;
     display: flex;
     flex-direction: row;
     justify-content: center;
