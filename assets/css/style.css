@@ -29,6 +29,13 @@ body {
     height: 600px;
 }
 
+.headshot {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 999999;
+}
+
 .box {
     height: 400p x;
     width: auto;
@@ -71,15 +78,6 @@ body {
     width: 100%;
 }
 
-/*book here button on accomodation page*/
-
-.bookbutton {
-    background-image: url(../images/bookhere.png) no-repeat right;
-}
-
-.bookbutton:hover {
-    background-image: url(../images/bookherehover.png) no-repeat right;
-}
 
 /*form styling*/
 
