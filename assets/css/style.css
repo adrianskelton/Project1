@@ -71,6 +71,16 @@ body {
     width: 100%;
 }
 
+/*book here button on accomodation page*/
+
+.bookbutton {
+    background-image: url(../images/bookhere.png) no-repeat right;
+}
+
+.bookbutton:hover {
+    background-image: url(../images/bookherehover.png) no-repeat right;
+}
+
 /*form styling*/
 
 input[type=text],
