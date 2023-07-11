@@ -66,6 +66,7 @@ body {
 }
 
 .social {
+    padding-top: 20px;
     height: 110px;
     display: flex;
     flex-direction: row;
