@@ -41,9 +41,7 @@ body {
     border-radius: 50%;
 }
 
-.box {
-    width: auto;
-    margin: 10px;
+.box {    margin: 10px;
     overflow: none;
 }
 

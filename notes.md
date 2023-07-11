@@ -2,6 +2,8 @@
 
 Changed font awesome icons to older version and it worked.
 
+Loading time of images , used website https://tinypng.com/ to compress all the images
+
 Hero images had a lot of white space above and below when shrinking the image I fixed this using a percentage value for padding of the hero images.
 I found this fix at https://www.youtube.com/watch?v=VF5kD6QEEag
 
