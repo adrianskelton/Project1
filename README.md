@@ -94,13 +94,6 @@ I used Balsamiq to design my wireframes.
 
 ## Features
 
-### Navbar
-
-I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu.
-
-(https://i.ibb.co/kc2gVCx/nav1.png)
-
-(https://i.ibb.co/qjv7Jk0/navmobile.png)
 
 
 
@@ -111,8 +104,19 @@ This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+### Navbar
 
+I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu.
+
+![alt text](https://i.ibb.co/kc2gVCx/nav1.png)<br>
+Desktop version nav bar
+<br><br><br>
+![alt text](https://i.ibb.co/qjv7Jk0/navmobile.png)<br>
+Mobile version nav bar
+
+### Footer with social media icons
+
+I added three social media icons, 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
@@ -181,15 +185,36 @@ To clone the repository:
 
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, adrianskelton/Projecto1
+3. Click the Fork button in the top right corner.
+
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, kera-cudmore/TheQuizArms
+3. Click on the code button, select from the options to clone with HTTPS, SSH or GitHub CLI and copy the link shown thereafter.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+## AUTOMATED TESTING
+
+### W3C Validator
+
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+
+
+
+* [Index Page W3C HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffoundintranslationsodaci.herokuapp.com%2F) - Pass
+
 
 Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
   
