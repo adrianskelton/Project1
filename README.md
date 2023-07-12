@@ -106,7 +106,7 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+I would like to more review which would be changed everytime the landing page is visited.
 
 ### Accessibility
 
@@ -133,7 +133,7 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 **Font Awesome** - Social Media icons from Font Awesome.<br>
 **Google Chrome** - The website was built and tested in google Chrome.<br>
 **TinyPNG Website** - Used to compress images so they load faster.<br>
-**codebeautify.org** - Used to clean up css and html code<br>
+**Codebeautify Website** - Used to clean up css and html code<br>
 
 
 ### Languages Used
