@@ -133,19 +133,19 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 **Font Awesome** - Social Media icons from Font Awesome.<br>
 **Google Chrome** - The website was built and tested in google Chrome.<br>
 **TinyPNG Website** - Used to compress images so they load faster.<br>
+**codebeautify.org** - Used to clean up css and html code<br>
 
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML, CSS, Javascript
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
-
+**Bootstrap** - for the responsiveness of the website despite having to add a media query for the 1000px breakpoint so that the site looked better on mobile and tablets. I also used bootstrap code for the navbar.  
+**Github** - I used GitHub for the storage of my site and Gitpages to pubish my website
 Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+**Photoshop** - Used photoshop for some of my image resizing.
 
 ## Deployment & Local Development
 
