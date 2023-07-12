@@ -94,6 +94,17 @@ I used Balsamiq to design my wireframes.
 
 ## Features
 
+### Navbar
+
+I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu.
+
+(https://i.ibb.co/kc2gVCx/nav1.png)
+
+(https://i.ibb.co/qjv7Jk0/navmobile.png)
+
+
+
+
 👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
 
 This section can be used to explain what pages your site is made up of.
@@ -134,6 +145,8 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 **Google Chrome** - The website was built and tested in google Chrome.<br>
 **TinyPNG Website** - Used to compress images so they load faster.<br>
 **Codebeautify Website** - Used to clean up css and html code<br>
+**Favicon Generator Website** - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io<br>
+**Imagebb** - Website used to host images for readme
 
 
 ### Languages Used
