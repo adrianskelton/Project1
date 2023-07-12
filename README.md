@@ -77,16 +77,16 @@ The imagery chosen was to showcase the beauty of the area and to entice potentia
 ### Wireframes
 
 ### Home
-<img src="https://i.ibb.co/RzCsYQW/wirehome.png" alt="home" border="0"></a>
+![alt text](assets/images/wirehome.png)<br>
 
 ### Accomodation
-<img src="https://i.ibb.co/305rg6g/wireaccomodation.png" alt="accommodation" border="0"></a>
+![alt text](assets/images/wireaccomodation.png)<br>
 
 ### Contact
-<img src="https://i.ibb.co/3s4mV3H/wirecontact.png" alt="contact" border="0"></a>
+![alt text](assets/images/wirecontact.png)<br>
 
 ### Mobile view
-<img src="https://i.ibb.co/3rXCKzB/wiremobile.png" alt="contact" border="0"></a>
+![alt text](assets/images/wiremobile.png)<br>
 
 
 I used Balsamiq to design my wireframes.
@@ -94,13 +94,6 @@ I used Balsamiq to design my wireframes.
 
 ## Features
 
-
-
-
-
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
@@ -116,7 +109,30 @@ Mobile version nav bar
 
 ### Footer with social media icons
 
-I added three social media icons, 
+I added three social media icons for instagram, facebook and airbnb. They were sourced from font awesome and I changed the color to the same green color chosen in the color pallette previously mentioned.
+<br><br>
+<img src="assets/images/features/social.png" alt="pallete" border="0"></a>
+
+## Features by page
+
+### Landing page
+
+The Landing page has a short intro of text describing the accomodation and how popular it is based on reviews and via publications. Then we have a review from a past customer with a portait image of her and a youtube video to the side displaying the containers and the area. I then chose 3 very colourful images that showcase the beauty of the area directly below the above content. I feel that the landing page is a great showcase for the containers and entices the user to click to the next pages where they will hopefully book or at least make an enquiry which is the end goal of the website.
+
+![alt text](assets/images/features/landing.png)<br>
+
+### Accomodation page
+
+The accomodation page features the two options for accomodation with an overview of how many rooms and bathroooms available, a short writeup on the accomodation, a horizontal scrollable gallery as well as a book here link below which takes the user to airbnb where they can book. 
+
+<img src="assets/images/features/accomodation.png" alt="pallete" border="0"></a>
+
+### Contact page
+
+The contact page features a google map that was embedded via google maps and a contact form, the thank you message in the popup box after submitting the form is a simple alert javascript function. The third column in the row is just the basic contact details of the bnb's.
+
+<img src="assets/images/features/contact.png" alt="pallete" border="0"></a>
+
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
@@ -159,9 +175,9 @@ HTML, CSS, Javascript
 
 ### Frameworks, Libraries & Programs Used
 
-**Bootstrap** - for the responsiveness of the website despite having to add a media query for the 1000px breakpoint so that the site looked better on mobile and tablets. I also used bootstrap code for the navbar.  
+**Bootstrap** - for the responsiveness of the website despite having to add a media query for the 1000px breakpoint so that the site looked better on mobile and tablets. I also used bootstrap code for the navbar.  <br>
 **Github** - I used GitHub for the storage of my site and Gitpages to pubish my website
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).<br>
 **Photoshop** - Used photoshop for some of my image resizing.
 
 ## Deployment & Local Development
@@ -215,8 +231,23 @@ To clone the repository:
 
 * [Index Page W3C HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffoundintranslationsodaci.herokuapp.com%2F) - Pass
 
+### Lighthouse
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
+I used Chrome's Lighthouse developer tool to check my sites performance, it was being slowed down by large images before compression but then faired well after compression. Below are the final results.
+
+### Index
+
+![alt text](assets/images/lightindex.jpg)<br>
+
+### Accomodation
+![alt text](assets/images/lightaccomm.jpg)<br>
+
+### Contact
+![alt text](assets/images/lightcontact.jpg)<br>
+
+### Accessibility tester
+
+I used this to check how my site was rated for its accessibility, this led me to add more aria-labels as well as changing alt descriptions for the book here links as I realised having two buttons that both said "book here" could be more confusing that two seperate descriptions that included which container you were booking.
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
