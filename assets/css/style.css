@@ -5,7 +5,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/*hero image landing page*/
+/* Hero image landing page*/
 
 .heroimage {
   background-size: contain;
@@ -45,7 +45,7 @@ body {
   overflow: none;
 }
 
-/*for accomodation images*/
+/* For accomodation images*/
 
 .accom {
   display: inline-block;
@@ -56,11 +56,15 @@ body {
   margin-bottom: 35px;
 }
 
+/* Padding for when needed in bootstrap rows */
+
 .padding {
   padding-left: 10%;
   padding-right: 10%;
   align-content: center;
 }
+
+/* Styling for social media icons in footer */
 
 .social {
   padding-top: 20px;
@@ -70,7 +74,7 @@ body {
   justify-content: center;
 }
 
-/*makes youtube video responsive*/
+/* Makes youtube video responsive*/
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -78,11 +82,13 @@ body {
   justify-content: center;
 }
 
+/* For googlemap on contact page */
+
 .googlemap {
   width: 100%;
 }
 
-/*form styling*/
+/* Form styling*/
 
 input[type="text"],
 select,
@@ -105,6 +111,8 @@ textarea {
   /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+/* Styling for submit button on contact page */
+
 input[type="submit"] {
   background-color: #04aa6d;
   color: white;
@@ -117,6 +125,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #307934;
 }
+
+/* Media query for any screen under 1000px */
 
 @media screen and (max-width: 1000px) {
   .break1000 {

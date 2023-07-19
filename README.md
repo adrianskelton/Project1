@@ -42,6 +42,9 @@ This is the static website of Mountain Magic Container Homes available for rent 
   * [Acknowledgments](#acknowledgments)
 
 ---
+## Target Audience
+
+The target audience is all tourists travelling through the western cape of south africa that may pass through the wilderness area and are looking to stay over at the airbnb. The uniqueness of the accomodation and the amazing views are a big positive in the ease of selling point. The website is fairly basic with a good review from a past guest, beautiful images, a short desription of each of the accomodation options along with a side scrolling gallery, also there is a clearly visible "book now" image link underneath each gallery. Then there is a contact page with a map, contact form and contact details. An airbnb 
 
 ## User stories
 
@@ -60,7 +63,7 @@ By using appropriate media queries to adjust the website to all screen sizes and
 
 ### Colour Scheme
 
-<img src="https://i.ibb.co/MVYH268/pallete.png" alt="pallete" border="0"></a>
+![alt text](assets/images/pallete.png)<br>
 
 The choice of my color scheme was inspired by the nature sorounding this airbnb so it was earthy and green, but also using the colors in the logo of the website, namely the green and orangy red of the aloe plant in the logo. 
 
@@ -68,7 +71,7 @@ The choice of my color scheme was inspired by the nature sorounding this airbnb 
 
 I went for a google font Lato because it looked clean and modern and was easy to setup. Below is a screenshot of the font.
 
-<img src="..assets/images/typography.png" alt="pallete" border="0"></a>
+![alt text](assets/images/typography.png)<br>
 
 ### Imagery
 
