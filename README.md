@@ -50,14 +50,14 @@ The target audience is all tourists travelling through the western cape of south
 
 The content will not change too much so the user experience goals for the first time visitor to returning visitor are essentially the same. These goals are primarily:
 
-### Entice the user to want to book
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+### As a tourist I would like to get a feel of the accomodation
+Images throughout the site display a good feel of the sorrounding area as well as the accomodation page which shows the two different accomodation options. The review on the first page also gives a good insight on the kind of experiences that a guest has to entice potential guests to book.
 
 ### Make booking and communication easy
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+On the accomodation page there is are clearly visible book now buttons that link the user to airbnb pages to book the accomodation selected, these also have the correct aria labels so that visually impaired users know which accomodation option they are selecting to book. The contact page has more contact details available as well as a contact us form and a map showing directions to the accomodation.
 
 ### Make the above equally user friendly on all available devices
-By using appropriate media queries to adjust the website to all screen sizes and using flexbox to adapt wider screeen content down to smaller sized content better suited to columns instead of row layout.
+By using appropriate media queries to adjust the website to all screen sizes and using flexbox to adapt wider screeen content down to smaller sized content better suited to columns instead of row layout. I made a media query with a breakpoint for screen sizes below 1000px and tested this on chrome and it seems the best option for the user experience. 
 
 ## Design
 
@@ -273,6 +273,7 @@ I wrote all of the content for the website, though I did get some information fr
 
 As my brother owns the container homes this was another reason to use this as my project as it made aquiring the images and video content easy without having to ask for permission from somebody I did not know. Images that were not from my brother was the portrait image for the reviewer on the home page which I get from royalty free website pexels.com
 The other 3 images above the footer on the home page are my own.
+
   
 ###  Acknowledgments
 
