@@ -135,4 +135,12 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     align-content: left;
   }
+  .padding {
+    padding: 0;
+    align-content: center;
+  }
+}
+
+#threepictures {
+    padding-top: 200;
 }
