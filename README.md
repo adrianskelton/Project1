@@ -264,6 +264,7 @@ The Credits section is where you can credit all the people and sources you used 
 
 The navbar I used was from bootstrap.  (https://getbootstrap.com/docs/4.0/components/navbar/)
 To make the youtube video responsive I found this css code clip (https://yoast.com/how-to-make-youtube-videos-responsive/)
+Pop-up Modal used from (https://codepen.io/imprakash/pen/GgNMXO) modified to suit my websites color scheme and style
 
 ### Content
 
