@@ -5,6 +5,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1 {
+    color: #799464
+}
+
 /* Hero image landing page*/
 
 .heroimage {
@@ -74,6 +78,11 @@ body {
   align-content: center;
 }
 
+.paddingbott {
+    padding-bottom: 20px;
+  }
+
+
 /* Styling for social media icons in footer */
 
 .social {
@@ -90,6 +99,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
+  border: 0px;
 }
 
 /* For googlemap on contact page */
