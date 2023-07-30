@@ -23,17 +23,23 @@ body {
   padding-top: 42%;
 }
 
+.heroaccom {
+    background-size: contain;
+    background: url(../images/accomodation.webp) no-repeat center center;
+    background-size: 80%;
+    text-align: center;
+    padding-top: 42%;
+  }
+
+.paddedheader {
+    padding-top:20px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
 .navbar {
     padding: 0;
   }
-
-.heroaccom {
-  background-size: contain;
-  background: url(../images/accomodation.webp) no-repeat center center;
-  background-size: 80%;
-  text-align: center;
-  padding-top: 42%;
-}
 
 .headshot {
   padding-top: 10px;
@@ -240,5 +246,45 @@ body {
     padding: 0;
     align-content: center;
   }
+
+  .heroimage {
+    background-size: contain;
+    background: url(../images/hero.png) no-repeat center center;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 42%;
+  }
+  
+  .heroimagecontact {
+    background-size: contain;
+    background: url(../images/heroimage2.webp) no-repeat center center;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 42%;
+  }
+  
+  .heroaccom {
+      background-size: contain;
+      background: url(../images/accomodation.webp) no-repeat center center;
+      background-size: 100%;
+      text-align: center;
+      padding-top: 42%;
+    }
+
+    .centerbox {
+        width: 100%;
+      }
+
+    .escapesection {
+ 
+        display: flex;
+        flex-direction:column-reverse;
+        flex-wrap: wrap;
+        }
+
+    h1 {
+
+    }
+      
 }
 
