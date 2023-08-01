@@ -9,7 +9,7 @@ This is the static website of Mountain Magic Container Homes available for rent 
 
 ## CONTENTS
 
-* [User Experience](#user-experience-ux)
+* [User Experience](#user-experience-ux).elementor-section.elementor-section-boxed > .elementor-container
   * [User Stories](#user-stories)
 
 * [Design](#design)
@@ -265,6 +265,8 @@ The Credits section is where you can credit all the people and sources you used 
 The navbar I used was from bootstrap.  (https://getbootstrap.com/docs/4.0/components/navbar/)
 To make the youtube video responsive I found this css code clip (https://yoast.com/how-to-make-youtube-videos-responsive/)
 Pop-up Modal used from (https://codepen.io/imprakash/pen/GgNMXO) modified to suit my websites color scheme and style
+Photogallery used on accomodation page (https://codepen.io/maxvoltar/pen/eYOPdMG)
+Tip used to not target all ul and li tags but only the above photogallery (https://stackoverflow.com/questions/49995250/css-global-change-to-all-ul-li-except-specific-id-or-class)
 
 ### Content
 

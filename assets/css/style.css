@@ -5,6 +5,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.logo {
+    width: auto;
+    max-width: 300px;
+}
+
 h1 {
     padding-top:20px;
     padding-bottom: 20px;
@@ -64,14 +69,79 @@ h1 {
 
 /* For accomodation images*/
 
-.accom {
-  display: inline-block;
-  overflow: auto;
-  width: 100%;
-  height: 100%;
-  white-space: nowrap;
-  margin-bottom: 35px;
+// BASIC
+
+.accomgall {
+    display: flex;
+    flex-direction: row;
 }
+
+ul:not(.navbar-nav) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li:not(.nav-item) {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+li:last-child {
+  // There's no science in using "10" here. In all my testing, this delivered the best results.
+  flex-grow: 10;
+}
+
+.gallimg {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+// ADVANCED
+
+// Portrait
+
+@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+
+// Short screens
+
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}
+
+// Smaller screens in portrait
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+  .gallimg {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
 
 /* Padding for when needed in bootstrap rows */
 
@@ -256,6 +326,7 @@ body {
     flex-wrap: wrap;
     align-content: left;
   }
+
 
   .padding {
     padding: 0;
