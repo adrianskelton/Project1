@@ -339,7 +339,7 @@ body {
 
   .heroimage {
     background-size: contain;
-    background: url(../images/hero.png) no-repeat center center;
+    background: url(../images/hero.webp) no-repeat center center;
     background-size: 100%;
     text-align: center;
     padding-top: 42%;
