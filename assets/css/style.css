@@ -67,7 +67,7 @@ h1 {
 
 .box {
   margin: 10px;
-  overflow: none;
+  overflow: hidden;
 }
 
 /* For accomodation images*/

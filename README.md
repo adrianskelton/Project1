@@ -274,7 +274,7 @@ I wrote all of the content for the website, though I did get some information fr
 
 ###  Media
 
-As my brother owns the container homes this was another reason to use this as my project as it made aquiring the images and video content easy without having to ask for permission from somebody I did not know. Images that were not from my brother was the portrait image for the reviewer on the home page which I get from royalty free website pexels.com
+As my brother owns the container homes this was another reason to use this as my project as it made aquiring the images and video content easy without having to ask for permission from somebody I did not know. Images that were not from my brother was the portrait image for the reviewer on the home page which I get from royalty free website pexels.com (https://www.pexels.com/photo/woman-wearing-white-shirt-with-white-flower-on-her-ear-3586798/)
 The other 3 images above the footer on the home page are my own.
 
   
