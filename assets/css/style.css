@@ -143,6 +143,10 @@ li:last-child {
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
+  .stretchli {
+    display: hidden;
+  }
   
 
 
@@ -382,6 +386,10 @@ body {
         padding-left: 20px;
         color: #799464
     }
+
+    .stretchli {
+        display: hidden;
+      }
       
 }
 
