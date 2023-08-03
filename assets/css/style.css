@@ -21,6 +21,13 @@ h1 {
     color: #799464
 }
 
+h1 {
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color:#04aa6d;
+  }
+
 /* Hero image landing page*/
 
 .heroimage {
@@ -335,6 +342,11 @@ body {
   }
 
   h1 {
+    font-size: medium;
+    color:#04aa6d;
+  }
+
+  h2 {
     font-size: medium;
     color:#04aa6d;
   }
