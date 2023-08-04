@@ -8,7 +8,7 @@ This is the static website of Mountain Magic Container Homes available for rent 
 
 ## CONTENTS
 
-* [User Experience](#user-experience-ux).elementor-section.elementor-section-boxed > .elementor-container
+* [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
 
 * [Design](#design)
@@ -112,10 +112,11 @@ Mobile version nav bar hamburger menu
 
 ### Footer with social media icons
 
-I added three social media icons for instagram, facebook and airbnb. They were sourced from font awesome and I changed the color to the same orange-red color chosen in the color pallette previously mentioned, a hover effect changes it to the green in the color pallete. 
+I added three social media icons for instagram, facebook and airbnb. They were sourced from font awesome and I changed the color to the same orange-red color chosen in the color pallette previously mentioned, a hover effect changes it to the green in the color pallete as shown below.
 
-![alt text]("assets/images/features/social.png)
-![alt text]("assets/images/features/social.jpg)
+![alt text](assets/images/social.jpg)
+![alt text](assets/images/social2.jpg)
+
 
 ## Features by page
 
@@ -123,25 +124,27 @@ I added three social media icons for instagram, facebook and airbnb. They were s
 
 The Landing page has a short intro of text describing the accomodation and how popular it is based on reviews and via publications. Then we have a review from a past customer with a portait image of her and a youtube video to the side displaying the containers and the area. I then chose 3 very colourful images that showcase the beauty of the area directly below the above content. I feel that the landing page is a great showcase for the containers and entices the user to click to the next pages where they will hopefully book or at least make an enquiry which is the end goal of the website.
 
-![alt text](assets/images/features/screenshotindex.jpg)
+![alt text](assets/images/screenshotindex.jpg)
+
 
 ### Accomodation page
 
-The accomodation page features the two options for accomodation with an overview of how many rooms and bathroooms available, a short writeup on the accomodation, a horizontal scrollable gallery as well as a book here link below which takes the user to airbnb where they can book. 
+The accomodation page features the two options for accomodation with an overview of how many rooms and bathroooms available, a short writeup on the accomodation, a responsive mosaic tile gallery as well as a book here link below which takes the user to airbnb where they can book. 
 
-<img src="assets/images/features/accomodation.png" alt="pallete" border="0"></a>
+![alt text](assets/images/screenshotaccommodation.jpg)
+
 
 ### Contact page
 
 The contact page features a google map that was embedded via google maps and a contact form, the thank you message in the popup box after submitting the form is a simple alert javascript function. The third column in the row is just the basic contact details of the bnb's.
 
-<img src="assets/images/features/contact.png" alt="pallete" border="0"></a>
+![alt text](assets/images/screenshotcontact.jpg)
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
 ### Future Implementations
 
 I would like that the review on the home page will be scrollable to show more than one review.
+
 
 ### Accessibility
 
@@ -149,25 +152,24 @@ I have made use of aria-labels for screen readers and did the best I could to us
 
 ## Technologies Used
 
-**Github** - Used for storage of my site and for publishing online.<br>
-**Codeanywhere** - The IDE used for editing my site and pushing changes.<br>
-**Python** - Used python 3 via terminal to preview my site using a local http server.<br>
-**HTML5** - The core of the site was built with HTML version 5.<br>
-**CSS** - CSS was used to style the website and define fonts and layout.<br>
-**Bootstrap** - Bootsrap was used to align items and create items such as the Navbar, accordion, carosel, flipcards, forms etc.<br>
-**Google Maps** - Google maps embed from Google inc.<br>
-**Youtube** - Videos embedded from Youtube.<br>
-**Font Awesome** - Social Media icons from Font Awesome.<br>
-**Google Chrome** - The website was built and tested in google Chrome.<br>
-**TinyPNG Website** - Used to compress images so they load faster.<br>
-**Codebeautify Website** - Used to clean up css and html code<br>
-**Favicon Generator Website** - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io<br>
-**Imagebb** - Website used to host images for readme
+**Github** - Used for storage of my site and for publishing online.\
+**Codeanywhere** - The IDE used for editing my site and pushing changes.\
+**Python** - Used python 3 via terminal to preview my site using a local http server.\
+**HTML5** - The core of the site was built with HTML version 5.\
+**CSS** - CSS was used to style the website and define fonts and layout.\
+**Bootstrap** - Bootstrap was used to align items and create items such as the Navbar, accordion, carosel, flipcards, forms etc.\
+**Google Maps** - Google maps embed from Google inc.\
+**Youtube** - Videos embedded from Youtube.\
+**Font Awesome** - Social Media icons from Font Awesome.\
+**Google Chrome** - The website was built and tested in google Chrome.\
+**TinyPNG Website** - Used to compress images so they load faster.\
+**Codebeautify Website** - Used to clean up css and html code\
+**Favicon Generator Website** - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io\
 
 
 ### Languages Used
 
-HTML, CSS
+HTML, CSS, Javascript
 
 ### Frameworks, Libraries & Programs Used
 
@@ -177,8 +179,6 @@ Make sure to include things like git, GitHub, the program used to make your wire
 **Photoshop** - Used photoshop for some of my image resizing.
 
 ## Deployment & Local Development
-
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
 ### Deployment
 
@@ -303,9 +303,6 @@ Additional testing was taken by friends on a variety of devices and screen sizes
 |   |   |   |   |
 | Google Map | Map should be interactive when clicked on | Clicked on map | Map zoomed in and reacted as expected | Pass |
 | Contact form | When items were left out the was a message asking to fill the section in| Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
-
-
-
 
  - - -
 

@@ -247,9 +247,11 @@ input[type="submit"]:hover {
   background-color: #307934;
 }
 
-#threepictures {
-    border-top: 20px;
-    padding-top: 20;
+.threepictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 0;
 }
 
   .button {
@@ -269,82 +271,80 @@ input[type="submit"]:hover {
 /* Media query for any screen under 1000px */
 
 @media screen and (max-width: 1000px) {
-  .break1000 {
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: left;
-  }
-
-  h1 {
-    font-size: medium;
-    color:#04aa6d;
-  }
-
-  h2 {
-    font-size: x-large;
-    color:#04aa6d;
-  }
-
-
-  .padding {
-    padding: 0;
-    align-content: center;
-  }
-
-  .heroimage {
-    background-size: contain;
-    background: url(../images/hero.webp) no-repeat center center;
-    background-size: 100%;
-    text-align: center;
-    padding-top: 42%;
-  }
+    .break1000 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+    }
   
-  .heroimagecontact {
-    background-size: contain;
-    background: url(../images/heroimage2.webp) no-repeat center center;
-    background-size: 100%;
-    text-align: center;
-    padding-top: 42%;
-  }
+    h1 {
+      font-size: medium;
+      color:#04aa6d;
+    }
   
-  .heroaccom {
+    h2 {
+      font-size: x-large;
+      color:#04aa6d;
+    }
+  
+  
+    .padding {
+      padding: 0;
+      align-content: center;
+    }
+  
+    .heroimage {
       background-size: contain;
-      background: url(../images/accomodation.webp) no-repeat center center;
+      background: url(../images/hero.webp) no-repeat center center;
       background-size: 100%;
       text-align: center;
       padding-top: 42%;
     }
-
-    .centerbox {
-        width: 100%;
-      }
-
-    .escapesection {
- 
-        display: flex;
-        flex-direction:column-reverse;
-        flex-wrap: wrap;
-        }
-
-    h1 {
-        padding-top:20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        color: #799464
+    
+    .heroimagecontact {
+      background-size: contain;
+      background: url(../images/heroimage2.webp) no-repeat center center;
+      background-size: 100%;
+      text-align: center;
+      padding-top: 42%;
     }
     
-
-     h2 {
-        padding-top:20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        color: #799464
-    }
-
-    .stretchli {
-        display: hidden;
+    .heroaccom {
+        background-size: contain;
+        background: url(../images/accomodation.webp) no-repeat center center;
+        background-size: 100%;
+        text-align: center;
+        padding-top: 42%;
+      }
+  
+      .centerbox {
+          width: 100%;
+        }
+  
+      .escapesection {
+   
+          display: flex;
+          flex-direction:column-reverse;
+          flex-wrap: wrap;
+          }
+  
+      h1 {
+          padding-top:20px;
+          padding-bottom: 20px;
+          padding-left: 20px;
+          color: #799464
       }
       
-}
-
+  
+       h2 {
+          padding-top:20px;
+          padding-bottom: 20px;
+          padding-left: 20px;
+          color: #799464
+      }
+  
+        
+  }
+  
+ 

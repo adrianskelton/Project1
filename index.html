@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
     <!--font awesome script loader-->
     <script defer src="https://kit.fontawesome.com/660a11ff62.js" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,7 +56,22 @@
         
         </div>
             <div class="col">
-            <iframe aria-label="youtube promotional video for mountain magic" class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/mKxSBKWY8hU" title="MOUNTAIN MAGIC 2 (SHIPPING CONTAINER)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe aria-label="youtube promotional video for mountain magic" class="youtube-video lazy" width="560" height="315" src="https://www.youtube.com/embed/mKxSBKWY8hU" title="MOUNTAIN MAGIC 2 (SHIPPING CONTAINER)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!--lazy load initializer-->
+            <script>
+                // Set the options globally
+                // to make LazyLoad self-initialize
+                window.lazyLoadOptions = {
+                    // Your custom settings go here
+                };
+                
+                // Listen to the initialization event
+                // and get the instance of LazyLoad
+                window.addEventListener("LazyLoad::Initialized", function (event) {
+                    window.lazyLoadInstance = event.detail.instance;
+                }, false);
+                </script>
+
           </div>
           </div>
         </div>
@@ -75,11 +91,11 @@
         </div></div>
 
         <!--sorround yourself with magic section-->
-          <div class="row mt-12">
+        <div class="row mt-12">
             <div class="col-sm">
             <h2 class="sorroundheading">Sorround yourself with magic</h2>
           </div>
-          <aside id="threepictures" class="row mt-4 break1000">
+          <aside id="threepictures" class="row mt-4">
             <div class="col box centerbox">
               <img src="assets/images/wildernessbeach.webp" alt="wilderness beach" style="width:100%;">
             </div>
