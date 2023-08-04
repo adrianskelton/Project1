@@ -2,7 +2,7 @@
 
 This is the static website of Mountain Magic Container Homes available for rent on Airbnb. It is designed to be responsive on all devices and most of all functional so that users can be inticed to book via Airbnb or to contacct the host directly to ask further questions.
 
-![fully responsive website example image](assets/images/amiresponsive.webp)
+![fully responsive website example image](assets/images/features/amiresponsive.jpg)
 
 ---
 
@@ -102,19 +102,20 @@ I used Balsamiq to design my wireframes.
 
 ### Navbar
 
-I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu.
+I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu. The text is bolder for the naviation text that the user is currently on.
 
 ![alt text](https://i.ibb.co/kc2gVCx/nav1.png)<br>
-Desktop version nav bar
+Desktop version nav bar with menu
 <br><br><br>
 ![alt text](https://i.ibb.co/qjv7Jk0/navmobile.png)<br>
-Mobile version nav bar
+Mobile version nav bar hamburger menu
 
 ### Footer with social media icons
 
-I added three social media icons for instagram, facebook and airbnb. They were sourced from font awesome and I changed the color to the same green color chosen in the color pallette previously mentioned.
+I added three social media icons for instagram, facebook and airbnb. They were sourced from font awesome and I changed the color to the same orange-red color chosen in the color pallette previously mentioned, a hover effect changes it to the green in the color pallete. 
 
-<img src="assets/images/features/social.png" alt="pallete" border="0"></a>
+![alt text]("assets/images/features/social.png)
+![alt text]("assets/images/features/social.jpg)
 
 ## Features by page
 
@@ -122,7 +123,7 @@ I added three social media icons for instagram, facebook and airbnb. They were s
 
 The Landing page has a short intro of text describing the accomodation and how popular it is based on reviews and via publications. Then we have a review from a past customer with a portait image of her and a youtube video to the side displaying the containers and the area. I then chose 3 very colourful images that showcase the beauty of the area directly below the above content. I feel that the landing page is a great showcase for the containers and entices the user to click to the next pages where they will hopefully book or at least make an enquiry which is the end goal of the website.
 
-![alt text](assets/images/features/screenshotindex.webp)<br>
+![alt text](assets/images/features/screenshotindex.jpg)
 
 ### Accomodation page
 
