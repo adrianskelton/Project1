@@ -2,8 +2,7 @@
 
 This is the static website of Mountain Magic Container Homes available for rent on Airbnb. It is designed to be responsive on all devices and most of all functional so that users can be inticed to book via Airbnb or to contacct the host directly to ask further questions.
 
-![fully responsive website example image 
-](https://i.ibb.co/h9jmjQq/screenshot.png)
+![fully responsive website example image](assets/images/amiresponsive.webp)
 
 ---
 
@@ -44,7 +43,7 @@ This is the static website of Mountain Magic Container Homes available for rent 
 ---
 ## Target Audience
 
-The target audience is all tourists travelling through the western cape of south africa that may pass through the wilderness area and are looking to stay over at the airbnb. The uniqueness of the accomodation and the amazing views are a big positive in the ease of selling point. The website is fairly basic with a good review from a past guest, beautiful images, a short desription of each of the accomodation options along with a side scrolling gallery, also there is a clearly visible "book now" image link underneath each gallery. Then there is a contact page with a map, contact form and contact details. An airbnb 
+The target audience is all tourists travelling through the western cape of South Africa that may pass through the wilderness area and are looking to stay over at the airbnb. The uniqueness of the accomodation and the amazing views are a big positive in the ease of selling point. The website is fairly basic with a good review from a past guest, beautiful images, a short desription of each of the accomodation options along with a side scrolling gallery, also there is a clearly visible "book now" image link underneath each gallery. Then there is a contact page with a map, contact form and contact details. An airbnb 
 
 ## User stories
 
@@ -57,7 +56,7 @@ Images throughout the site display a good feel of the sorrounding area as well a
 On the accomodation page there is are clearly visible book now buttons that link the user to airbnb pages to book the accomodation selected, these also have the correct aria labels so that visually impaired users know which accomodation option they are selecting to book. The contact page has more contact details available as well as a contact us form and a map showing directions to the accomodation.
 
 ### Make the above equally user friendly on all available devices
-By using appropriate media queries to adjust the website to all screen sizes and using flexbox to adapt wider screeen content down to smaller sized content better suited to columns instead of row layout. I made a media query with a breakpoint for screen sizes below 1000px and tested this on chrome and it seems the best option for the user experience. 
+By using appropriate media queries to adjust the website to all screen sizes and using flexbox to adapt wider screen content down to smaller sized content better suited to columns instead of row layout. I made a media query with a break point for screen sizes below 1000px and tested this on chrome and it seems the best option for the user experience. 
 
 ## Design
 
@@ -65,7 +64,8 @@ By using appropriate media queries to adjust the website to all screen sizes and
 
 ![alt text](assets/images/pallete.png)<br>
 
-The choice of my color scheme was inspired by the nature sorounding this airbnb so it was earthy and green, but also using the colors in the logo of the website, namely the green and orangy red of the aloe plant in the logo. 
+The choice of my color scheme was inspired by the nature sorounding this airbnb so it was earthy and green, but also using the colors in the logo of the website, namely the green and orange-red of the aloe plant in the logo. 
+The headings of the content I used the green color above and and social media icons I used the orange with the color changing to orange with a hover css effect.
 
 ### Typography
 
@@ -75,7 +75,7 @@ I went for a google font Lato because it looked clean and modern and was easy to
 
 ### Imagery
 
-The imagery chosen was to showcase the beauty of the area and to entice potential clients to want to book the accomodation. The images were compressed using website TinyPNG.com to maximise performance.
+The imagery chosen was to showcase the beauty of the area and to entice potential clients to want to book the accomodation. The images were 
 
 ### Wireframes
 
@@ -113,7 +113,7 @@ Mobile version nav bar
 ### Footer with social media icons
 
 I added three social media icons for instagram, facebook and airbnb. They were sourced from font awesome and I changed the color to the same green color chosen in the color pallette previously mentioned.
-<br><br>
+
 <img src="assets/images/features/social.png" alt="pallete" border="0"></a>
 
 ## Features by page
@@ -122,7 +122,7 @@ I added three social media icons for instagram, facebook and airbnb. They were s
 
 The Landing page has a short intro of text describing the accomodation and how popular it is based on reviews and via publications. Then we have a review from a past customer with a portait image of her and a youtube video to the side displaying the containers and the area. I then chose 3 very colourful images that showcase the beauty of the area directly below the above content. I feel that the landing page is a great showcase for the containers and entices the user to click to the next pages where they will hopefully book or at least make an enquiry which is the end goal of the website.
 
-![alt text](assets/images/features/landing.png)<br>
+![alt text](assets/images/features/screenshotindex.webp)<br>
 
 ### Accomodation page
 
@@ -215,8 +215,7 @@ To clone the repository:
 
 
 ## Testing
-
-## Manual TESTING
+## Manual Testing
 
 ### W3C Validator
 
@@ -230,15 +229,33 @@ To clone the repository:
 
 I used Chrome's Lighthouse developer tool to check my sites performance, it was being slowed down by large images before compression but then faired well after compression. Below are the final results.
 
-### Index
+### Index page
 
-![alt text](assets/images/lightindex.jpg)<br>
+Desktop result
+![alt text](assets/images/lightindex.jpg)
 
-### Accomodation
-![alt text](assets/images/lightaccomm.jpg)<br>
+Mobile result
 
-### Contact
-![alt text](assets/images/lightcontact.jpg)<br>
+![alt text](assets/images/lightindex.jpg)
+
+### Accomodation page
+
+Desktop result
+![alt text](assets/images/lightindex.jpg)
+
+Mobile result
+
+![alt text](assets/images/lightindex.jpg)
+
+### Contact page
+
+
+Desktop result
+![alt text](assets/images/lightindex.jpg)
+
+Mobile result
+
+![alt text](assets/images/lightindex.jpg)
 
 
 ### Full Testing
@@ -277,20 +294,17 @@ Additional testing was taken by friends on a variety of devices and screen sizes
 | Youtube video | Video does not autoplay only when clicked does it play. | Clicked video  | Video plays | Pass |
 | --- | --- | --- | --- | --- |
 | `Accomodation Page` |
+|   |   |   |   |
 | Book here buttons | When clicked will open the airbnb site in a new window for the appropriate accomodation | Clicked on the buttons | Opened a new airbnb window for the appropriate accomodation | Pass |
-
-| Password input empty | This is a required field so the form should not submit if empty | Tried to submit the form with this field empty | tooltip tells me this field is required |  Pass |
-| log in button | Saves the user to session and redirects to the profile page. Flash message shown welcoming the user | Submitted form | Redirected to the profile page and flash message shown | Pass |
-| Incorrect username or password used | A flash message should display saying username/password incorrect - this is defensive programming - not letting user know which input is incorrect | Incorrect username/password entered | Message flashes to let the user know they have entered an incorrect username/password | Pass |
-| Link to register page |  This should redirect the user to the register page | Clicked link | Redirected to the register page | Pass |
-
+| Gallery responsiveness | When window resized gallery was responsive and site layout looked as expected | Resized window | Gallery was responsive and looks good | Pass |
+| --- | --- | --- | --- | --- |
 | `Contact Page` |
 |   |   |   |   |
 | Google Map | Map should be interactive when clicked on | Clicked on map | Map zoomed in and reacted as expected | Pass |
-| Contact form | When items were left out | Clicked link | Redirected to search page | Pass |
-| --- | --- | --- | --- | --- |
-|   |   |   |   |   |
-| Home page link | Redirects the user to the home page | Clicked link | Redirected to home page | Pass |
+| Contact form | When items were left out the was a message asking to fill the section in| Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
+
+
+
 
  - - -
 
@@ -302,7 +316,7 @@ The navbar I used was from bootstrap.  (https://getbootstrap.com/docs/4.0/compon
 
 To make the youtube video responsive I found this css code clip (https://yoast.com/how-to-make-youtube-videos-responsive/)
 
-Contact form with validation (https://getbootstrap.com/docs/5.0/forms/validation/) modified to suit my site
+Contact form with validation (https://www.w3schools.com/howto/howto_css_contact_form.asp) modified to suit my site
 
 Photogallery used on accomodation page (https://codepen.io/maxvoltar/pen/eYOPdMG)
 
@@ -316,7 +330,7 @@ I wrote all of the content for the website, though I did get some information fr
 
 As my brother owns the container homes this was another reason to use this as my project as it made aquiring the images and video content easy without having to ask for permission from somebody I did not know. 
 
-Images that were not from my brother was the portrait image for the reviewer on the home page which I get from royalty free website pexels.com (https://www.pexels.com/photo/woman-wearing-white-shirt-with-white-flower-on-her-ear-3586798/)
+Images that were not from my brother was the portrait image for the reviewer on the home page which I got from royalty free website pexels.com (https://www.pexels.com/photo/woman-wearing-white-shirt-with-white-flower-on-her-ear-3586798/)
 The other 3 images above the footer on the home page are my own.
 
   
