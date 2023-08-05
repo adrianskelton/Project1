@@ -209,6 +209,11 @@ To fork the repository:
 ## Testing
 ## Manual Testing
 
+### Jigsaw CSS Validator
+
+[Jigsaw](https://jigsaw.w3.org/css-validator/validator) was used to validate the css code
+![alt text](assets/images/jigsaw.jpg) - Pass
+
 ### W3C Validator
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
