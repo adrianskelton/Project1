@@ -250,7 +250,8 @@ input[type="submit"]:hover {
 .threepictures {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding: 10px;
     flex: 1 1 0;
 }
 
@@ -276,6 +277,13 @@ input[type="submit"]:hover {
       flex-direction: column;
       flex-wrap: wrap;
       align-content: center;
+    }
+
+    .threepictures {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1 1 0;
     }
   
     h1 {

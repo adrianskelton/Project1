@@ -143,7 +143,7 @@ The contact page features a google map that was embedded via google maps and a c
 
 ### Future Implementations
 
-I would like that the review on the home page will be scrollable to show more than one review.
+I would like that the review on the home page will be scrollable to show more than one review. I would to improve the
 
 
 ### Accessibility
@@ -186,7 +186,7 @@ I deployed everything my website onto gitpages.
 
 ### Local Development
 
-To clone the repository:
+#### How to Clone
 
 1. Log into your account on github
 2. Go to the repository of this project /adrianskelton/Projecto1/
@@ -204,17 +204,6 @@ To fork the repository:
 3. Click the Fork button in the top right corner.
 
 
-#### How to Clone
-
-To clone the repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, kera-cudmore/TheQuizArms
-3. Click on the code button, select from the options to clone with HTTPS, SSH or GitHub CLI and copy the link shown thereafter.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
-
 ## Testing
 ## Manual Testing
 
@@ -223,8 +212,8 @@ To clone the repository:
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
 
-
-* [Index Page W3C HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffoundintranslationsodaci.herokuapp.com%2F) - Pass
+![alt text](assets/images/wc3.png) - Pass
+![alt text](assets/images/wc32.png) - Pass
 
 ### Lighthouse
 
@@ -232,31 +221,17 @@ I used Chrome's Lighthouse developer tool to check my sites performance, it was 
 
 ### Index page
 
-Desktop result
-![alt text](assets/images/lightindex.jpg)
-
-Mobile result
 
 ![alt text](assets/images/lightindex.jpg)
 
 ### Accomodation page
 
-Desktop result
-![alt text](assets/images/lightindex.jpg)
-
-Mobile result
-
-![alt text](assets/images/lightindex.jpg)
+![alt text](assets/images/lightaccomm.jpg)
 
 ### Contact page
 
 
-Desktop result
-![alt text](assets/images/lightindex.jpg)
-
-Mobile result
-
-![alt text](assets/images/lightindex.jpg)
+![alt text](assets/images/lightcontact.jpg)
 
 
 ### Full Testing
