@@ -43,7 +43,7 @@ This is the static website of Mountain Magic Container Homes available for rent 
 ---
 ## Target Audience
 
-The target audience is all tourists travelling through the western cape of South Africa that may pass through the wilderness area and are looking to stay over at the airbnb. The uniqueness of the accomodation and the amazing views are a big positive in the ease of selling point. The website is fairly basic with a good review from a past guest, beautiful images, a short desription of each of the accomodation options along with a side scrolling gallery, also there is a clearly visible "book now" image link underneath each gallery. Then there is a contact page with a map, contact form and contact details. An airbnb 
+The target audience is all tourists travelling through the western cape of South Africa that may pass through the wilderness area and are looking to stay over at the airbnb. The uniqueness of the accomodation and the amazing views are a big positive in the ease of selling point. The website is fairly basic with a good review from a past guest, beautiful images, a short desription of each of the accomodation options along with a side scrolling gallery, also there is a clearly visible "book now" image link underneath each gallery. Then there is a contact page with a map, contact form and contact details. An airbnb link has been placed on the accomodation page that will take users to book for each of the accomodation options.
 
 ## User stories
 
@@ -75,7 +75,7 @@ I went for a google font Lato because it looked clean and modern and was easy to
 
 ### Imagery
 
-The imagery chosen was to showcase the beauty of the area and to entice potential clients to want to book the accomodation. The images were 
+The imagery chosen was to showcase the beauty of the area and to entice potential clients to want to book the accomodation. 
 
 ### Wireframes
 
@@ -104,11 +104,14 @@ I used Balsamiq to design my wireframes.
 
 I used a navbar from Bootstrap, below are two views of the desktop view and the responsive mobile view that transforms into a hamburger menu. The text is bolder for the naviation text that the user is currently on.
 
-![alt text](https://i.ibb.co/kc2gVCx/nav1.png)<br>
+![alt text](https://i.ibb.co/kc2gVCx/nav1.png)
+
 Desktop version nav bar with menu
-<br><br><br>
-![alt text](https://i.ibb.co/qjv7Jk0/navmobile.png)<br>
+
+![alt text](https://i.ibb.co/qjv7Jk0/navmobile.png)
+
 Mobile version nav bar hamburger menu
+
 
 ### Footer with social media icons
 
@@ -143,7 +146,7 @@ The contact page features a google map that was embedded via google maps and a c
 
 ### Future Implementations
 
-I would like that the review on the home page will be scrollable to show more than one review. I would to improve the
+I would like that the review on the home page will be scrollable to show more than one review. I would to improve the performance of the website, when I ran lighthouse I could see that a few things were slowing down the site. 
 
 
 ### Accessibility
@@ -173,9 +176,8 @@ HTML, CSS, Javascript
 
 ### Frameworks, Libraries & Programs Used
 
-**Bootstrap** - for the responsiveness of the website despite having to add a media query for the 1000px breakpoint so that the site looked better on mobile and tablets. I also used bootstrap code for the navbar.  <br>
-**Github** - I used GitHub for the storage of my site and Gitpages to pubish my website
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).<br>
+**Bootstrap** - for the responsiveness of the website despite having to add a media query for the 1000px breakpoint so that the site looked better on mobile and tablets. I also used bootstrap code for the navbar.\
+**Github** - I used GitHub for the storage of my site and Gitpages to pubish my website.\
 **Photoshop** - Used photoshop for some of my image resizing.
 
 ## Deployment & Local Development
@@ -222,16 +224,16 @@ I used Chrome's Lighthouse developer tool to check my sites performance, it was 
 ### Index page
 
 
-![alt text](assets/images/lightindex.jpg)
+![alt text](assets/images/lighthouseindex.png)
 
 ### Accomodation page
 
-![alt text](assets/images/lightaccomm.jpg)
+![alt text](assets/images/lighthouseaccom.png)
 
 ### Contact page
 
 
-![alt text](assets/images/lightcontact.jpg)
+![alt text](assets/images/lighthousecontact.png)
 
 
 ### Full Testing

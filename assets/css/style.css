@@ -88,7 +88,7 @@ h2 {
 
 /* For accomodation image gallery*/
 
-// BASIC
+/* BASIC */
 
 .accomgall {
     display: flex;
@@ -106,7 +106,7 @@ li:not(.nav-item) {
 }
 
 li:last-child {
-  // There's no science in using "10" here. In all my testing, this delivered the best results.
+
   flex-grow: 10;
 }
 
@@ -117,9 +117,9 @@ li:last-child {
   vertical-align: bottom;
 }
 
-// ADVANCED
+/* ADVANCED */
 
-// Portrait
+/* Portrait */
 
 @media (max-aspect-ratio: 1/1) {
   li {
@@ -127,7 +127,7 @@ li:last-child {
   }
 }
 
-// Short screens
+/* Short screens */
 
 @media (max-height: 480px) {
   li {
@@ -135,7 +135,7 @@ li:last-child {
   }
 }
 
-// Smaller screens in portrait
+/* Smaller screens in portrait */
 
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
   ul {
