@@ -4,6 +4,8 @@ This is the static website of Mountain Magic Container Homes available for rent 
 
 ![fully responsive website example image](assets/images/features/amiresponsive.jpg)
 
+[View the live site here](https://adrianskelton.github.io/Project_1_Mountain_Magic/)
+
 ---
 
 ## CONTENTS
